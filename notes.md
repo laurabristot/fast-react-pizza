@@ -86,3 +86,23 @@ Order → global remote state (fetched and submitted to API)
 | Styling | tailwind | trendy way of styling applications that we want to learn |
 | Remote State management | React Router | new way of fetching data right inside React Router that is worth exploring |
 | UI State management | Redux | State is fairly complex. Redux has many advantages for UI state. Also, we want to practice redux a bit more |
+
+# Setting Up a Professional File Structure
+
+📁 src
+
+---📁 features
+
+------📁 cart
+
+------📁 menu
+
+------📁 order
+
+------📁 user
+
+---📁 services
+
+---📁 ui
+
+---📁 utils
