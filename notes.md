@@ -106,3 +106,7 @@ Order → global remote state (fetched and submitted to API)
 ---📁 ui
 
 ---📁 utils
+
+# A New Way Of Implementing Routes
+
+`npm i react-router-dom@6`
