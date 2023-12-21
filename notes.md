@@ -110,3 +110,28 @@ Order → global remote state (fetched and submitted to API)
 # A New Way Of Implementing Routes
 
 `npm i react-router-dom@6`
+
+# What is Tailwind CSS?
+
+A utility-first CSS framework packed with utility classes like `flex`, `text-center` and `rotate-90` that can be composed to build any deign, directly in your markup
+
+utility-first CSS approach: writing tiny classes with one single purpose, and then combining them to build entire layouts
+
+in tailwind, these classes are already written for us. so we’re not gonna write any new css, but instead use some of tailwind’s hundreds of classes.
+
+| the good | the bad |
+| --- | --- |
+| you dont need to think about class names | Markup looks very unreadable, with lots of class names |
+| no jumping between files to write markup and styles | you hav to learn a lot of class names (but after a day of usage you know fundamentals) |
+| immediately understand styling in any project that uses tailwind | you need to install and set up tailwind on each new project |
+| tailwind is a design system: many design decisions have been taken for you, which makes UIs look better and more consistent | you’re giving up on ‘vanilla css’ |
+| Saves a lot of time, e.g. on responsive design |  |
+| docs and VSCode integration are great |  |
+
+# Setting Up Tailwind CSS
+
+`npm install -D tailwindcss postcss autoprefixer`
+
+`npx tailwindcss init -p`
+
+`npm install -D prettier prettier-plugin-tailwindcss`
